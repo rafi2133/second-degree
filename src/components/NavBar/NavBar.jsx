@@ -8,7 +8,7 @@ import login from '../../assets/login.ico'
 
 const NavBar = () => {
     return (
-        <nav className="bg-base-200 shadow-sm rounded-md w-10/12 ml-20">
+        <nav className="bg-base-200 shadow-sm rounded-md w-full md:w-10/12 md:ml-20">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 py-3 md:px-6">
                 {/* Logo - appears first in visual order */}
                 <div className="flex-shrink-0">
