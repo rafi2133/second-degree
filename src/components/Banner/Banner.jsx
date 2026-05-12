@@ -28,17 +28,18 @@ const Banner = () => {
         <div className='w-10/12 ml-20 mt-5 flex gap-4'>
             {/* Left side - categories list (unchanged) */}
             <div className="left p-3 border-4 border-[#2adbdb] rounded-md flex flex-col justify-center">
+                <h2 className='text-center font-semibold text-xl'>智学乐行</h2>
                 <div className="flex my-2">
-                    <h3 className='mr-4'>小语种自学</h3>
-                    <ul className='flex gap-2'>
-                        <li className='hover:text-[#46c0c9]'><button>日语</button></li>
-                        <li className='hover:text-[#46c0c9]'><button>泰语</button></li>
-                        <li className='hover:text-[#46c0c9]'><button>俄语</button></li>
+                    <h3 className='mr-4 '>小语种自学</h3>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
+                        <li className=' hover:text-[#46c0c9]'><button>日语</button></li>
+                        <li className=' hover:text-[#46c0c9]'><button>泰语</button></li>
+                        <li className=' hover:text-[#46c0c9]'><button>俄语</button></li>
                     </ul>
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>AI学习应用</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>AI学习</button></li>
                         <li className='hover:text-[#46c0c9]'><button>AI办公</button></li>
                         <li className='hover:text-[#46c0c9]'><button>AI自媒体</button></li>
@@ -46,7 +47,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>跨境自媒体</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>FaceBook</button></li>
                         <li className='hover:text-[#46c0c9]'><button>Instagram</button></li>
                         <li className='hover:text-[#46c0c9]'><button>TikTok</button></li>
@@ -54,7 +55,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>跨境电商</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>跨境平台</button></li>
                         <li className='hover:text-[#46c0c9]'><button>独立站</button></li>
                         <li className='hover:text-[#46c0c9]'><button>TK店铺</button></li>
@@ -62,7 +63,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>国贸物流</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>国际贸易</button></li>
                         <li className='hover:text-[#46c0c9]'><button>国际物流</button></li>
                         <li className='hover:text-[#46c0c9]'><button>进出口报关</button></li>
@@ -70,7 +71,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>职业规划</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>企业实习</button></li>
                         <li className='hover:text-[#46c0c9]'><button>企业就职</button></li>
                         <li className='hover:text-[#46c0c9]'><button>自行创业</button></li>
@@ -78,7 +79,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>人才智库</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>企业招聘</button></li>
                         <li className='hover:text-[#46c0c9]'><button>初创投资</button></li>
                         <li className='hover:text-[#46c0c9]'><button>合伙创投</button></li>
@@ -86,7 +87,7 @@ const Banner = () => {
                 </div>
                 <div className="flex my-2">
                     <h3 className='mr-4'>智学乐行</h3>
-                    <ul className='flex gap-2'>
+                    <ul className='flex gap-2 hover:bg-black hover:text-white'>
                         <li className='hover:text-[#46c0c9]'><button>积累积分</button></li>
                         <li className='hover:text-[#46c0c9]'><button>积分兑换</button></li>
                         <li className='hover:text-[#46c0c9]'><button>学长帮扶带</button></li>

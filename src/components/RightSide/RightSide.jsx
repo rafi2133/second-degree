@@ -6,7 +6,7 @@ import verify from '../../assets/veryfi.svg'
 
 const RightSide = () => {
     return (
-        <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 shadow-xl rounded-lg p-2">
+        <div className="fixed right-0 top-1/3 -translate-y-1/3 z-50 shadow-xl rounded-lg p-2">
             <div className="border p-2 bg-white shadow-lg rounded-l-md flex flex-col">
                 <button className="relative whitespace-nowrap hover:bg-[#46f3e2]">
                     <img className='w-20 ' src={callService} alt="call service" />

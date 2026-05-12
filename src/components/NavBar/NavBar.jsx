@@ -31,7 +31,7 @@ const NavBar = () => {
                             className="input input-bordered join-item w-full sm:w-64 md:w-56 lg:w-72 input-sm md:input-md bg-base-100 focus:outline-none"
                             aria-label="Search"
                         />
-                        <button className="btn join-item btn-primary btn-sm md:btn-md gap-1">
+                        <button className="btn join-item btn-primary btn-sm md:btn-md gap-1 ">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-4 w-4 md:h-5 md:w-5"
