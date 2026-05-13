@@ -67,31 +67,6 @@ const ChoosePlan = () => {
                 </div>
             </div>
 
-            {/* 3. 人才智库 */}
-            <div className="mb-8">
-                <div className="text-right mb-1">
-                    <button className="btn btn-soft btn-info text-white">用人企业进入</button>
-                </div>
-                <div className="border-4 border-[#4dbfec] bg-[#74c8e975] p-4 rounded-lg">
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                        <div className="flex items-center justify-center text-center border-2 border-[#2ed6ec] bg-[#26b3c5] text-white py-5 md:py-0 md:flex-col">
-                            <span className="md:block hidden">人<br />才<br />智<br />库</span>
-                            <span className="md:hidden">人才智库</span>
-                        </div>
-                        <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
-                                <p className="font-bold text-center">企业招聘</p>
-                            </button>
-                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
-                                <p className="font-bold text-center">初创项目对接</p>
-                            </button>
-                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
-                                <p className="font-bold text-center">合伙创投对接</p>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             {/* 4. 智学乐行 */}
             <div className="mb-8">
@@ -118,6 +93,34 @@ const ChoosePlan = () => {
                     </div>
                 </div>
             </div>
+
+            {/* 3. 人才智库 */}
+            <div className="mb-8">
+                <div className="text-right mb-1">
+                    <button className="btn btn-soft btn-info text-white">用人企业进入</button>
+                </div>
+                <div className="border-4 border-[#4dbfec] bg-[#74c8e975] p-4 rounded-lg">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                        <div className="flex items-center justify-center text-center border-2 border-[#2ed6ec] bg-[#26b3c5] text-white py-5 md:py-0 md:flex-col">
+                            <span className="md:block hidden">人<br />才<br />智<br />库</span>
+                            <span className="md:hidden">人才智库</span>
+                        </div>
+                        <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
+                                <p className="font-bold text-center">企业招聘</p>
+                            </button>
+                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
+                                <p className="font-bold text-center">初创项目对接</p>
+                            </button>
+                            <button className="border border-[#2ed6ec] bg-[#55eafd] hover:bg-[#4ac6d6] p-2 rounded">
+                                <p className="font-bold text-center">合伙创投对接</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     );
 };
